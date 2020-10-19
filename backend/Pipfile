@@ -13,6 +13,7 @@ django-heroku = "*"
 dj-database-url = "*"
 django-cors-headers = "*"
 django-rest-auth = "*"
+django-allauth = "*"
 
 [requires]
 python_version = "3.8"

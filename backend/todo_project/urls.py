@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # NEW
-    path('api/', include('todos.urls'))
+    path('api/', include('todos.urls')),
+    path('api/v1/', include('posts.urls')),
 ]

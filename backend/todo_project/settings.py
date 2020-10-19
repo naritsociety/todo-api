@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # NEW
     'todos',
+    'posts',
     'rest_framework',
     'corsheaders',
 
